@@ -1,0 +1,26 @@
+.sidebarOption {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.icon {
+  color: rgb(72, 224, 72);
+  padding-right: 10px;
+}
+
+.sidebarOption > h2 {
+  font-weight: 800;
+  font-size: 20px;
+  margin-right: 20px;
+}
+
+.chartIcon {
+  color:  rgb(72, 224, 72);
+}
+
+.sidebarOption:hover {
+  background-color:  rgb(241, 255, 241);
+  border-radius: 30px;
+  color: rgb(72, 224, 72);
+}

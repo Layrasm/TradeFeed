@@ -10,7 +10,7 @@ function Sidebar() {
   return (
     <div className="sidebar">
 
-      <ShowChartIcon />
+      <ShowChartIcon className="chartIcon" />
       <SidebarOption Icon={HomeIcon} text="Home" />
       <SidebarOption Icon={NotificationsIcon} text="Notifications" />
       <SidebarOption Icon={MailIcon} text="Messages" />

@@ -4,8 +4,8 @@ import '../sidebar.css';
 function SidebarOption({ text, Icon }) {
   return (
     <div className="sidebarOption">
-      <Icon />
-      <h1>{text}</h1>
+      <Icon className="icon" />
+      <h2>{text}</h2>
     </div>
   )
 };

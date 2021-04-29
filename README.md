@@ -1,12 +1,11 @@
-# Starter Proj
-
+# TradeFeed (Twitter style trading app)
 ## Steps to setup and run
 
-1. `git clone git@github.com:Layrasm/react_rails_starter_w_auth.git <project-name>`
+1. `git clone git@github.com:Layrasm/TradeFeed.git <project-name>`
 
 2. `cd project-name`
 3. `bundle install`
-4. in database.yml change name of database react_rails_router to **project-name**
+4. in database.yml change name of database TradeFeed to **project-name**
 5. `rails db:create db:migrate db:seed`
 6. `rails s -p 3001`
 
@@ -35,6 +34,6 @@
     `git commit -m`
     `git push origin master`
 
-## Need to set up .env for Cloudinary after clone
+## Need to create and set up .env file for Cloudinary after clone
 
 1. `Review .env.example`

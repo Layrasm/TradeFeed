@@ -23,4 +23,22 @@
   background-color:  rgb(241, 255, 241);
   border-radius: 30px;
   color: rgb(72, 224, 72);
+  transition: color 200ms ease-out;
+}
+
+.sidebarPost {
+  background-color:  rgb(72, 224, 72) !important;
+  border: none !important;
+  color: white !important;
+  font-weight: 900 !important;
+  text-transform: inherit !important;
+  border-radius: 30px !important;
+  height: 50px !important;
+  margin-top: 20px !important;
+}
+
+.sidebarPost:hover {
+  background-color:  rgb(175, 248, 175) !important;
+  color: rgb(38, 197, 38) !important;
+  transition: color 200ms ease-out !important;
 }

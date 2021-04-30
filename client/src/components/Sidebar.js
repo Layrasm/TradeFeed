@@ -11,7 +11,9 @@ function Sidebar() {
   return (
     <div className="sidebar">
 
-      <ShowChartIcon className="chartIcon" />
+      <div className="mainIcon">
+        <ShowChartIcon className="chartIcon" />
+      </div>
       <SidebarOption Icon={HomeIcon} text="Home" />
       <SidebarOption Icon={NotificationsIcon} text="Notifications" />
       <SidebarOption Icon={MailIcon} text="Messages" />

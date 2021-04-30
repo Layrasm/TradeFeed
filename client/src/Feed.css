@@ -1,6 +1,6 @@
 .feed {
   flex: 0.4;
-  border-right: 1px solid rgb(219, 247, 219);
+  border-right: 1px solid rgb(221, 228, 221);
   min-width: fit-content;
   overflow-y: scroll;
 }
@@ -14,10 +14,14 @@
   top: 0;
   background-color: white;
   z-index: 100;
-  border: 1px solid rgb(219, 247, 219);
+  border-top: 1px solid rgb(221, 228, 221);
+  border-bottom: 1px solid rgb(221, 228, 221);
+  display: flex;
+  padding-left: 20px;
 }
 
 .feedHeader > h2 {
   font-weight: 800;
-  font-size: 50px;
+  font-size: 25px;
+  max-height: 25px;
 }

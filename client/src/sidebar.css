@@ -1,10 +1,9 @@
 .sidebar {
-  border-right: 1px solid rgb(219, 247, 219);
+  border-right: 1px solid rgb(221, 228, 221);
   flex: 0.3;
   padding-right: 20px;
-  min-width: 250px;
+  min-width: 200px;
   padding-top: 20px;
-
   /* margin-right: 10px; */
  
 }
@@ -46,18 +45,19 @@
 
 .sidebarPost {
   background-color:  rgb(72, 224, 72) !important;
-  border: none !important;
+  border: rgb(183, 196, 183) 1px solid !important;
   color: white !important;
   font-weight: 900 !important;
   text-transform: inherit !important;
   border-radius: 30px !important;
   height: 50px !important;
   margin-top: 20px !important;
-  margin-right: 100px !important;
+  margin-right: 250px !important;
+  max-width: 250px !important;
 }
 
 .sidebarPost:hover {
-  background-color:  rgb(175, 248, 175) !important;
-  color: rgb(38, 197, 38) !important;
+  background-color:  rgb(47, 206, 47) !important;
+  color: white !important;
   transition: color 200ms ease-out !important;
 }

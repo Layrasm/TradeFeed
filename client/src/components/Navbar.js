@@ -53,8 +53,8 @@ const NavBar = () => {
 const styles = {
   navbar: {
     background: "white",
-    outline: "2px solid",
-    outlineColor: "black",
+    outline: "1px solid",
+    outlineColor: "rgb(221, 228, 221)",
     padding: "10px",
   },
 };

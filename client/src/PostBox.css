@@ -1,0 +1,14 @@
+.postBox {
+  padding-bottom: 10px;
+  padding: 10px;
+  border-bottom: 8px solid rgb(231, 231, 231);
+}
+
+.postBoxInput {
+display: flex;
+}
+
+.textField {
+  border: none;
+  margin-left: 10px;
+}

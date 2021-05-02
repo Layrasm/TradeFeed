@@ -6,9 +6,18 @@
 
 .postBoxInput {
 display: flex;
+height: 100%;
+caret-color: rgb(72, 224, 72);
+
+
 }
 
 .textField {
+  flex: 1;
   border: none;
-  margin-left: 10px;
+  padding-left: 10px;
+  outline: none;
+  font-size: 20px;
+  width: 100%;
+
 }

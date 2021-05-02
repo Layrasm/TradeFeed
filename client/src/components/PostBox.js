@@ -8,7 +8,7 @@ const PostBox = () => {
       <form>
         <div className="postBoxInput">
           <Avatar />
-          <input placeholder="What's happening?" type="text" className="textField" />
+          <input placeholder="What's happening?" type="text" className="textField" contenteditable="true" />
         </div>
         <Button>Post</Button>
       </form>
